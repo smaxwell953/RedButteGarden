@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rbg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id= "@+id/textView1"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="Red Butte Garden and Arboretum" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView2"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="https://www.redbuttegarden.org" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="300 Wakara Way" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="Salt Lake City, UT 84108" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="(801) 585-0556" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView6"
+        android:layout_above="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="Hours (7 Days a Week)" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView7"
+        android:layout_above="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="01/02 - 03/31: 09:00 - 17:00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView8"
+        android:layout_above="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="04/01 - 04/30: 09:00 - 19:30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView9"
+        android:layout_above="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="05/01 - 08/31: 09:00 - 21:00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView10"
+        android:layout_above="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="09/01 - 09/30: 09:00 - 19:30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView11"
+        android:layout_above="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="10/01 - 12/23: 09:00 - 17:00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView12"
+        android:layout_above="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="Concert days: 09:00 - 17:00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id= "@+id/textView13"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:text="Closed Thanksgiving and 12/24 - 01/01"/>
+
+</RelativeLayout>

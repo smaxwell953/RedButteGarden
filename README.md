@@ -10,3 +10,4 @@ I made a single-screen app of Red Butte Garden's address, contact information, a
 <li>3. At least two other pieces of information such as contact info, address, and hours of operation.</li>
 
 <h2>Screenshot</h2>
+<img src="https://user-images.githubusercontent.com/34871894/79429352-a2aed980-7f84-11ea-90cd-e72dcd8110c0.jpg" width="400">
